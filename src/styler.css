@@ -1,0 +1,80 @@
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    height: 100vh;
+    background-image: url(img/new_york.jpg);
+}
+
+.principal,
+.imagem_um,
+.imagem_dois {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    opacity: .70;
+    }
+    
+.principal h1 {
+    position: absolute;
+    padding: 15px;
+    margin: 25% 34%;  
+    color: #e7e7e7;
+    background-color: #181818;  
+    font-weight: normal;
+    letter-spacing: 10px;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 25px;
+    margin: auto;
+    padding: 0;
+    width: 28%;
+}
+
+p {
+    font-size: 15px;
+}
+
+.um {
+    color: #666666;
+    background-color: #f4f4f4;
+    line-height: 30px;
+    padding: 4% 7%;
+}
+
+.tres,
+.dois {
+    background-color: #282e34;
+    line-height: 30px;
+    padding: 4% 7%;
+    color: #dddddd;
+}
+
+.imagem_um {
+    height: 45vh;
+    background-image: url(img/luzes.jpg);
+    }
+
+.imagem_dois {
+    height: 45vh;
+    background-image: url(img/predios.jpg);
+}
+
+.imagem_um h1, 
+.imagem_dois h1 {
+    font-weight: normal;
+    color: #e7e7e7;
+    position: absolute;
+    text-align: center;
+    margin: 12% 36%;  
+}
+
